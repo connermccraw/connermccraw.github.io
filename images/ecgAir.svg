@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="1200px" viewBox="0 0 1200 1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ECG-Air-Icon</title>
+    <defs>
+        <path d="M980.101985,132.410261 C990.882623,141.285284 1000.94105,151.002863 1010.1823,161.471264 L1016.76548,168.928616 C1130.87427,298.189901 1134.20067,491.189781 1024.61402,624.306508 L677.900251,1045.46548 C651.573962,1077.44446 604.308201,1082.02688 572.32922,1055.70059 C569.262051,1053.17558 566.400358,1050.41086 563.771155,1047.43252 L312.983393,763.342585 L191.037913,626.236023 C80.4711776,501.923184 77.1664332,315.52544 183.257049,187.371369 L197.760701,169.851421 C291.684875,56.3940222 459.800855,40.5592147 573.258254,134.483388 C583.952594,143.336553 593.939297,153.011282 603.127299,163.419358 L608.299393,169.278585 L609.035616,168.385119 C701.568581,55.9837879 867.700654,39.8772953 980.101985,132.410261 Z" id="path-1"></path>
+        <filter x="-5.2%" y="-5.1%" width="114.0%" height="114.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="18" dy="20" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="1200" height="1200"></rect>
+        <g id="Combined-Shape">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <use stroke="#DE3B3B" stroke-width="1" fill="#DE3B3B" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <line x1="498" y1="471" x2="588" y2="471" id="Line" stroke="#FFFFFF" stroke-width="20"></line>
+        <line x1="226" y1="651" x2="450" y2="651" id="Line" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></line>
+        <line x1="667" y1="511" x2="711" y2="651" id="Line" stroke="#FFFFFF" stroke-width="20"></line>
+        <line x1="666" y1="471" x2="667" y2="471" id="Line" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></line>
+        <line x1="711" y1="650" x2="988" y2="650" id="Line" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></line>
+        <line x1="450" y1="651" x2="545" y2="255" id="Line" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></line>
+        <line x1="545" y1="255" x2="643" y2="861" id="Line" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></line>
+        <line x1="642.5" y1="860.5" x2="667" y2="511" id="Line" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></line>
+    </g>
+</svg>
